@@ -1,0 +1,15 @@
+header{
+    height: 100px;
+}
+
+footer{
+    height: 50px;
+}
+
+.image-logo{
+    height: 100px;
+}
+
+.game{
+    height: calc(100vh - 150px);
+}
