@@ -13,3 +13,30 @@ footer{
 .game{
     height: calc(100vh - 150px);
 }
+
+#grid{
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+}
+
+.square-element-big{
+    border: 3px white solid;
+    float: left;
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    cursor: crosshair;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.active{
+    background-color: greenyellow;
+}
+
+.clerafix{
+    content: "";
+    clear: both;
+    display: table;
+}
