@@ -16,19 +16,32 @@ footer{
 
 #grid{
     margin: 0 auto;
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
 }
 
-.square-element-big{
-    border: 3px white solid;
-    float: left;
-    width: calc(100% / 10);
-    height: calc(100% / 10);
+.square-element-big, .square-element-medium, .square-element-small{
     cursor: crosshair;
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 3px white solid;
+    float: left;
+}
+
+.square-element-big{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+}
+
+.square-element-medium{
+    width: calc(80% / 8);
+    height: calc(80% / 8);
+}
+
+.square-element-small{
+    width: calc(60% / 5);
+    height: calc(60% / 5);
 }
 
 .active{
